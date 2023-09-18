@@ -6,7 +6,7 @@ class Building {
     }
 }
 
-export const allBuildings = [
+const allBuildings = [
     new Building('Burj Khalifa', 828, 'ARE'), 
     new Building('Shanghai Tower', 632, 'CHN'),
     new Building('Makkah Royal Clock Tower', 601, 'SAU'), 
@@ -14,6 +14,8 @@ export const allBuildings = [
     new Building('Lotte World Tower', 554, 'KOR')
 ];
 
-export function getRandomBuilding() {
+function getRandomBuilding() {
     return allBuildings[Math.floor(Math.random() * allBuildings.length)];
-}
+};
+
+module.exports = { getRandomBuilding, allBuildings }

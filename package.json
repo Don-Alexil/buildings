@@ -1,11 +1,23 @@
 {
-  "name": "building",
-  "version": "1.0.0",
+  "name": "world-buildings",
+  "version": "1.0.1",
   "description": "Buildings of the world",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alexandru ILISII",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Don-Alexil/buildings.git"
+  },
+  "keywords": [
+    "buildings"
+  ],
+  "bugs": {
+    "url": "https://github.com/Don-Alexil/buildings/issues"
+  },
+  "homepage": "https://github.com/Don-Alexil/buildings#readme",
+  "dependencies": {}
 }
